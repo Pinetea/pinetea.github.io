@@ -1,0 +1,332 @@
+<!DOCTYPE html><style is:global>
+	:root {
+		--block-size: 48px;
+		--nav-height: var(--2-block);
+		--main-height: calc(100vh - (var(--block-size) * (2 + 3)));
+	}
+</style>
+
+
+	
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width">
+		<meta name="generator" content="Astro v1.2.1">
+		<title>Minecraft Theme</title>
+		<link rel="icon" href="/favicon.ico">
+		<link rel="stylesheet" href="/css/minecraft.css">
+	
+	<body class="scrollbar">
+		
+        <header class="[--nav-height:2] h-[calc(var(--block-size)_*_var(--nav-height))] md:[--nav-height:2] w-full bg-block-dirt">
+    <div class="h-full w-full bg-block-grass-side bg-repeat-x">
+        <div class="flex flex-col md:flex-row items-center justify-end h-full w-full p-5 pt-0 md:pb-0 bg-cover bg-gradient-to-t from-[rgba(0,0,0,0.75)] to-[rgba(0,0,0,0.25)]">
+            <a href="/" class="h-auto w-6-block md:w-9-block mx-auto md:ml-0"><img src="/imgs/project-logo.png" alt="logo" class=""></a>
+            <nav class="flex items-center justify-end w-full md:w-min gap-3 text-2xl text-white">
+                <button class="button grid place-items-center md:hidden mr-auto text-shadow-lg" onclick="document.getElementById('sidebar').classList.toggle('hidden')"><span class="mt-1.5 mr-2.5 mb-1 ml-2 leading-none">☰</span></button>
+                <a href="/docs" class="button py-1 px-2 text-lg" target="_blank">Docs</a>
+            </nav>
+        </div>
+    </div>
+</header>
+        <main class="min-h-[var(--main-height)] w-full bg-block-stone">
+			<div class="min-h-[var(--main-height)] h-full w-full bg-dark-75">
+				<link rel="stylesheet" href="/assets/docs-how-it-all-works-docs-index-index.a789e56a.css" /><div class="flex flex-col md:flex-row h-full min-h-[var(--main-height)]">
+        <aside id="sidebar" class="hidden h-[50vh] w-full bg-block-stone-slab-double md:block md:sticky md:top-0 md:h-screen md:w-6-block">
+                <div class="flex flex-col h-full gap-2 p-3 bg-dark-50 overflow-y-auto scrollbar">
+                <nav class="achievement-panel p-1">
+                                    <div class="flex flex-col gap-1 py-2 px-3 text-white">                                        
+                                        <a href="/docs#introduction" class="text-lg underline text-yellow hover:underline text-shadow-sm">
+                                                Introduction
+                                            </a><a href="/docs#features" class="ml-2 text-md hover:underline text-shadow-sm">
+                                                Features
+                                            </a><a href="/docs#blocks" class="ml-2 text-md hover:underline text-shadow-sm">
+                                                Blocks
+                                            </a><a href="/docs#items" class="ml-2 text-md hover:underline text-shadow-sm">
+                                                Items
+                                            </a><a href="/docs#paintings" class="ml-2 text-md hover:underline text-shadow-sm">
+                                                Paintings
+                                            </a><a href="/docs#icons" class="ml-2 text-md hover:underline text-shadow-sm">
+                                                Icons
+                                            </a><a href="/docs#ui" class="ml-2 text-md hover:underline text-shadow-sm">
+                                                UI
+                                            </a><a href="/docs#ui-panels" class="ml-4 italic text-sm hover:underline text-shadow-sm">
+                                                UI Panels
+                                            </a><a href="/docs#ui-elements" class="ml-4 italic text-sm hover:underline text-shadow-sm">
+                                                UI Elements
+                                            </a><a href="/docs#scrollbar" class="ml-4 italic text-sm hover:underline text-shadow-sm">
+                                                Scrollbar
+                                            </a><a href="/docs#buttons" class="ml-4 italic text-sm hover:underline text-shadow-sm">
+                                                Buttons
+                                            </a><a href="/docs#books" class="ml-4 italic text-sm hover:underline text-shadow-sm">
+                                                Books
+                                            </a><a href="/docs#maps" class="ml-4 italic text-sm hover:underline text-shadow-sm">
+                                                Maps
+                                            </a><a href="/docs#signs" class="ml-4 italic text-sm hover:underline text-shadow-sm">
+                                                Signs
+                                            </a><a href="/docs#colors" class="ml-2 text-md hover:underline text-shadow-sm">
+                                                Colors
+                                            </a><a href="/docs#text" class="ml-4 italic text-sm hover:underline text-shadow-sm">
+                                                Text
+                                            </a><a href="/docs#wool" class="ml-4 italic text-sm hover:underline text-shadow-sm">
+                                                Wool
+                                            </a><a href="/docs#terrain" class="ml-4 italic text-sm hover:underline text-shadow-sm">
+                                                Terrain
+                                            </a><a href="/docs#website" class="ml-4 italic text-sm hover:underline text-shadow-sm">
+                                                Website
+                                            </a>
+                                    </div>
+                                </nav><nav class="achievement-panel p-1">
+                                    <div class="flex flex-col gap-1 py-2 px-3 text-white">                                        
+                                        <a href="/docs/how-it-all-works#how-it-works" class="text-lg underline text-yellow hover:underline text-shadow-sm">
+                                                How it works
+                                            </a><a href="/docs/how-it-all-works#styles" class="ml-2 text-md hover:underline text-shadow-sm">
+                                                Styles
+                                            </a><a href="/docs/how-it-all-works#css-variables" class="ml-4 italic text-sm hover:underline text-shadow-sm">
+                                                CSS variables
+                                            </a><a href="/docs/how-it-all-works#tailwindcss-classes" class="ml-4 italic text-sm hover:underline text-shadow-sm">
+                                                Tailwindcss Classes
+                                            </a><a href="/docs/how-it-all-works#classes" class="ml-4 italic text-sm hover:underline text-shadow-sm">
+                                                Classes
+                                            </a><a href="/docs/how-it-all-works#theme-structure" class="ml-2 text-md hover:underline text-shadow-sm">
+                                                Theme Structure
+                                            </a><a href="/docs/how-it-all-works#tailwind-config" class="ml-4 italic text-sm hover:underline text-shadow-sm">
+                                                Tailwind Config
+                                            </a><a href="/docs/how-it-all-works#minecraftcss" class="ml-4 italic text-sm hover:underline text-shadow-sm">
+                                                Minecraft.css
+                                            </a><a href="/docs/how-it-all-works#textures" class="ml-4 italic text-sm hover:underline text-shadow-sm">
+                                                Textures
+                                            </a><a href="/docs/how-it-all-works#fonts" class="ml-4 italic text-sm hover:underline text-shadow-sm">
+                                                Fonts
+                                            </a><a href="/docs/how-it-all-works#project-logo" class="ml-4 italic text-sm hover:underline text-shadow-sm">
+                                                Project Logo
+                                            </a><a href="/docs/how-it-all-works#favicon" class="ml-4 italic text-sm hover:underline text-shadow-sm">
+                                                Favicon
+                                            </a>
+                                    </div>
+                                </nav>
+                </div>
+        </aside>
+        <div class="h-full w-full md:w-[calc(100vw_-_(var(--block-size)_*_6))]">
+            <div class="flex flex-col h-full min-h-screen w-full md:w-[90%] lg:w-[80%] mx-auto px-3 overflow-visible markdown">
+                <h1 id="how-it-works">How it works</h1>
+<p>The <code>./public</code> folder contains all of the themes assets including textures, fonts, CSS, etc.</p>
+<p>The <code>./tailwind.config.cjs</code> file uses the <code>./public</code> folder to extend tailwinds classes into minecraft themed classes</p>
+<p>The <code>./src</code> folder contains the structure of your website. It comes with some examples on how to use the Minecraft theme to create your own pages, layouts, and components. All examples use HTML with classes, zero JS and CSS</p>
+<h2 id="styles">Styles</h2>
+<p>In order to access classes and textures your page must include the following link tags on your page:</p>
+<pre is:raw="" class="astro-code" style="background-color: #282c34; overflow-x: auto;"><code><span class="line"><span style="color: #ABB2BF">&#x3C;</span><span style="color: #E06C75">link</span><span style="color: #ABB2BF"> </span><span style="color: #D19A66">rel</span><span style="color: #ABB2BF">=</span><span style="color: #98C379">"stylesheet"</span><span style="color: #ABB2BF"> </span><span style="color: #D19A66">href</span><span style="color: #ABB2BF">=</span><span style="color: #98C379">"/css/minecraft.css"</span><span style="color: #ABB2BF">></span></span></code></pre>
+<h3 id="css-variables">CSS variables</h3>
+<h5 id="--block-size"><code>--block-size</code>:</h5>
+<p><strong>Default:</strong> <code>48px</code></p>
+<div class="h-1-block w-1-block bg-block-cobblestone"></div>
+<p>The size of a block on your website, controls the sizing of all minecraft styling (UI, Blocks, Items, etc), every class is sized relative to this property to keep everything the same size. Its value should be a multiple of the 16px, the size of a block texture, to avoid image scaling issues</p>
+<p>You can set the block size of an element using a class like: <code>[--block-size:{number}]</code></p>
+<h5 id="--zoom"><code>--zoom</code>:</h5>
+<div class="flex flex-wrap items-center gap-5 m-2">
+  <div class="h-1-block w-1-block p-1 [--zoom:1.5] map"></div>
+  <div class="h-1-block w-1-block p-1 [--zoom:2.5] map"></div>
+  <div class="h-1-block w-1-block p-1 [--zoom:5] map"></div>
+</div>
+<p>This property allows you to zoom the UI classes in and out by increasing or decreasing the widths of border-images.</p>
+<p>Use the class <code>[--zoom:{number}]</code> to easily ‘zoom’ UI textures in and out</p>
+<h5 id="--number-block"><code>--{number}-block</code>:</h5>
+<p><strong>Varients:</strong> <code>1/16 / 1/8 / 1/4 / 1/2 / 1-32</code></p>
+<div class="flex flex-wrap items-center gap-3">
+  <div class="h-[var(--2-block)] w-[var(--2-block)] bg-block-cobblestone"></div>
+  <div class="h-[var(--2-block)] w-[var(--1-block)] bg-block-cobblestone"></div>
+  <div class="h-[var(--1-block)] w-[var(--2-block)] bg-block-cobblestone"></div>
+</div>
+<p>CSS variables for sizing properties relative to <code>--block-size</code></p>
+<p><strong>EX</strong>: <code>var(--1/2-block)</code>, <code>var(--1-block)</code>, <code>var(--32-block)</code></p>
+<h5 id="--fluid-0-9"><code>--fluid-(0-9)</code>:</h5>
+<p>Responsive font sizes used for markdown</p>
+<h3 id="tailwindcss-classes">Tailwindcss Classes</h3>
+<p>One of the main jobs of the tailwind config is to read all file names inside the <code>./public/imgs</code> folder and assign each file a <code>bg-</code> class. This makes it easy to use the textures inside <code>./public/imgs</code> by calling a class like <code>bg-block-stone</code> or <code>bg-item-diamond</code></p>
+<p><strong>Note</strong>: Use the <code>./public</code> folder to lookup filenames in order to use these classes</p>
+<h5 id="bg-filename"><code>bg-{filename}</code>:</h5>
+<p>All blocks in the <code>./public/imgs/block</code> folder will create a block background class that look like: <code>bg-block-{filename}</code> Ex: <code>bg-block-dirt</code> <code>bg-block-gold-block</code></p>
+<h5 id="bg-item-filename"><code>bg-item-{filename}</code>:</h5>
+<p>All items in the <code>./public/imgs/items</code> folder will create a item background class that look like: <code>bg-item-{filename}</code> Ex: <code>bg-item-cake</code> <code>bg-item-diamond</code></p>
+<h5 id="bg-painting-filename"><code>bg-painting-{filename}</code>:</h5>
+<p>All paintings in the <code>./public/imgs/paintings</code> folder will create a painting background class that look like: <code>bg-painting-{filename}</code>Ex: <code>bg-painting-skull</code> <code>bg-painting-kebab</code></p>
+<h5 id="number-block"><code>{number}-block</code>:</h5>
+<p><code>1/16 / 1/8 / 1/4 / 1/2 / (1-99)-block</code></p>
+<div class="flex flex-wrap items-center gap-3">
+  <div class="h-2-block w-2-block bg-block-cobblestone"></div>
+  <div class="h-2-block w-1-block bg-block-cobblestone"></div>
+  <div class="h-1-block w-2-block bg-block-cobblestone"></div>
+</div>
+<p>This theme extends tailwinds <code>spacing</code> property to add block based spacing/sizes Ex: <code>w-1-block</code> <code>p-1/2-block</code> <code>h-9-block</code></p>
+<h3 id="classes">Classes</h3>
+<p>Many of the minecraft styles and textures are hard to write as tailwindcss classes, these classes make it easy and simple to add minecraft styles to your elements without tailwindcss</p>
+<h5 id="link"><code>link</code>:</h5>
+<p>Styles <a>links</a> with the link color from minecrafts old website and adds underline on hover</p>
+<h5 id="text-shadow"><code>text-shadow</code>:</h5>
+<p><strong>Varients:</strong> <code>none / xs / sm / md / lg / xl</code></p>
+<p>Applys the classic black text shadow from minecraft to text, use larger text shadows <code>text-shadow-xl</code> on larger text sizes for a better minecraft look</p>
+<h5 id="markdown"><code>markdown</code>:</h5>
+<p>Classless styling on all child elements, used to style html that is parsed from <code>.md</code> files, use on a parent that wraps your markdown html</p>
+<h5 id="bg-dark"><code>bg-dark</code>:</h5>
+<p><strong>Varients:</strong> <code>75 / 50 / 25</code></p>
+<p>Transparent black backgrounds, used to darken block backgrounds</p>
+<h5 id="scrollbar"><code>scrollbar</code>:</h5>
+<p><strong>Zoom:</strong> <code>24</code> (scrollbar-thumb)</p>
+<p>Minecraft styled scrollbar</p>
+<h5 id="button"><code>button</code>:</h5>
+<p><strong>Zoom:</strong> <code>10</code></p>
+<div class="flex flex-wrap items-center gap-3">
+  <a class="button py-2 px-4 text-lg whitespace-nowrap">XS</a>
+  <a class="button py-2 px-4 text-lg whitespace-nowrap">Small</a>
+  <a class="button py-2 px-4 text-lg whitespace-nowrap">Larger Button</a>
+</div>
+<p>Minecraft styled menu/option button</p>
+<h5 id="raised-slot-button"><code>raised-slot-button</code>:</h5>
+<p><strong>Zoom:</strong> <code>24</code></p>
+<div class="flex flex-wrap items-center gap-3">
+  <div class="raised-slot-button h-1-block w-1-block"></div>
+  <div class="raised-slot-button h-1-block w-4-block"></div>
+</div>
+<p>The raised slot UI element can be used an an interactable button</p>
+<h5 id="enchainting-slot-button"><code>enchainting-slot-button</code>:</h5>
+<p><strong>Zoom:</strong> <code>24</code></p>
+<div class="flex flex-wrap items-center gap-3">
+  <div class="enchanting-slot-button h-1-block w-1-block"></div>
+  <div class="enchanting-slot-button h-1-block w-4-block"></div>
+</div>
+<p>The enchanting slot UI element can be used an an interactable button</p>
+<h5 id="transparent-panel"><code>transparent-panel</code>:</h5>
+<p><strong>Zoom:</strong> <code>10</code></p>
+<div class="h-2-block w-2-block transparent-panel"></div>
+<p>UI panel with a transparent background</p>
+<h5 id="panel"><code>panel</code>:</h5>
+<p><strong>Zoom:</strong> <code>10</code></p>
+<div class="h-2-block w-2-block panel"></div>
+<p>UI panels that look like the background of an inventory or chest</p>
+<h5 id="panel-dark"><code>panel-dark</code>:</h5>
+<p><strong>Zoom:</strong> <code>10</code></p>
+<div class="h-2-block w-2-block panel-dark"></div>
+<p>UI panel but dark</p>
+<h5 id="transparent-achievement-panel"><code>transparent-achievement-panel</code>:</h5>
+<p><strong>Zoom:</strong> <code>10</code></p>
+<div class="h-1-block w-4-block transparent-achievement-panel"></div>
+<p>UI achievement panel with a transparent background</p>
+<h5 id="achievement-panel"><code>achievement-panel</code>:</h5>
+<p><strong>Zoom:</strong> <code>10</code></p>
+<div class="h-1-block w-4-block achievement-panel"></div>
+<p>UI panel that looks like an achievement notification</p>
+<h5 id="transparent-slot"><code>transparent-slot</code>:</h5>
+<p><strong>Zoom:</strong> <code>24</code></p>
+<div class="h-1-block w-1-block transparent-slot"></div>
+<p>Inventory/Chest item slot border</p>
+<h5 id="slot"><code>slot</code>:</h5>
+<p><strong>Zoom:</strong> <code>24</code></p>
+<div class="h-1-block w-1-block slot"></div>
+<p>Inventory/Chest item slot border with background</p>
+<h5 id="raised-slot"><code>raised-slot</code>:</h5>
+<p><strong>Zoom:</strong> <code>24</code></p>
+<div class="h-1-block w-1-block transparent-raised-slot"></div>
+<p>The raised slot UI element with a transparent background</p>
+<h5 id="raised-slot-1"><code>raised-slot</code>:</h5>
+<p><strong>Zoom:</strong> <code>24</code></p>
+<div class="h-1-block w-1-block raised-slot"></div>
+<p>The opposite of the slot UI element, looks like a raised area instead of a recessed one</p>
+<h5 id="raised-slot-hover"><code>raised-slot-hover</code>:</h5>
+<p><strong>Zoom:</strong> <code>24</code></p>
+<div class="h-1-block w-1-block raised-slot-hover"></div>
+<p>The raised slot button when on hover</p>
+<h5 id="raised-slot-active"><code>raised-slot-active</code>:</h5>
+<p><strong>Zoom:</strong> <code>24</code></p>
+<div class="h-1-block w-1-block raised-slot-active"></div>
+<p>The raised slot button when active or focused</p>
+<h5 id="enchanting-slot"><code>enchanting-slot</code>:</h5>
+<p><strong>Zoom:</strong> <code>24</code></p>
+<div class="h-1-block w-1-block enchanting-slot"></div>
+<p>The slot UI element used in game when choosing an enchant</p>
+<h5 id="enchanting-slot-hover"><code>enchanting-slot-hover</code>:</h5>
+<p><strong>Zoom:</strong> <code>24</code></p>
+<div class="h-1-block w-1-block enchanting-slot-hover"></div>
+<p>The enchanting slot button when on hover</p>
+<h5 id="enchanting-slot-active"><code>enchanting-slot-active</code>:</h5>
+<p><strong>Zoom:</strong> <code>24</code></p>
+<div class="h-1-block w-1-block enchanting-slot-active"></div>
+<p>The enchanting slot button when active or focused</p>
+<h5 id="anvil-textbox"><code>anvil-textbox</code>:</h5>
+<p><strong>Zoom:</strong> <code>16</code></p>
+<div class="h-1/2-block w-5-block anvil-textbox"></div>
+<p>The textbox used in anvils</p>
+<h5 id="anvil-textbox-active"><code>anvil-textbox-active</code>:</h5>
+<p><strong>Zoom:</strong> <code>16</code></p>
+<div class="h-1/2-block w-5-block anvil-textbox-active"></div>
+<p>Active version of anvil textbox</p>
+<h5 id="table"><code>table</code>:</h5>
+<table class="table w-fit m-2"><thead><tr><th>ID</th><th>Name</th><th>Description</th></tr></thead><tbody><tr><td>265</td><td>Iron Ingot</td><td>A ingot of iron, used for crafting</td></tr><tr><td>266</td><td>Gold Ingot</td><td>A ingot of gold, used for crafting</td></tr><tr><td>264</td><td>Diamond</td><td>A diamond, used for crafting</td></tr></tbody></table>
+<p>Styles table elements to look like in game inventories like chests</p>
+<h5 id="map"><code>map</code>:</h5>
+<p><strong>Zoom:</strong> <code>4</code></p>
+<div class="flex flex-wrap items-center gap-5 m-2">
+  <div class="h-3-block w-3-block p-1 [--zoom:2] map"></div>
+  <div class="h-2-block w-2-block p-1 map"></div>
+  <div class="h-1-block w-1-block p-1 map"></div>
+</div>
+<p>Styles the borders and background of an element to look like a minecraft map</p>
+<h5 id="book"><code>book</code>:</h5>
+<p><strong>Zoom:</strong> <code>4</code></p>
+<div class="h-9-block w-7-block pl-2 book [--zoom:4]">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis asperiores, commodi explicabo aspernatur laboriosam dolorem corporis doloremque numquam nesciunt cum aliquid ipsum maxime iste autem? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis asperiores, commodi explicabo aspernatur laboriosam dolorem corporis doloremque numquam nesciunt cum aliquid ipsum maxime iste autem? Lorem ipsum dolor sit amet, consectetur adipisicing elit.</div>
+<p>Styles the borders and background of an element to look like a minecraft book</p>
+<h5 id="sign"><code>sign</code>:</h5>
+<div class="flex flex-wrap items-center gap-5 m-2">
+  <div class="h-3-block w-6-block px-1 sign text-2xl">Lorem ipsum dolor sit amet, consectetur adipisicing</div>
+  <div class="h-2-block w-4-block px-1 sign leading-[1.25rem] text-lg">Lorem ipsum dolor sit amet, consectetur adipisicing</div>
+</div>
+<p>Styles the text and background of an element to look like a minecraft sign, mimics the way signs work by centering text and wrapping on new lines</p>
+<h2 id="theme-structure">Theme Structure</h2>
+<p>This is a theme structure/asset overview explaining where all assetes are located and how they interact with the theme</p>
+<h3 id="tailwind-config">Tailwind Config</h3>
+<p>The tailwind configuration located at projects root <code>./tailwind.config.cjs</code> reads texture files from the <code>./public/imgs</code> folder and creates new <code>bg-</code> classes for every texture in the <code>blocks</code>, <code>items</code>, <code>paintings</code>, and <code>icons</code> folders. This allows you to easily add, remove, or modify textures and use them on your website with only a class. The config also generates block based spacings like <code>1-block</code> and up to <code>99-block</code> that can be used with other tailwind classes for sizing based on block size EX: <code>p-1/16-block</code> <code>w-3-block</code> <code>h-5-block</code></p>
+<h3 id="minecraftcss">Minecraft.css</h3>
+<p><code>minecraft.css</code> located in <code>./public/css</code> uses assets from <code>./public/fonts</code> and <code>./public/imgs</code> to create easy to use minecraft styled classes and is the central location for all minecraft styles that are not generated using tailwindcss</p>
+<h3 id="textures">Textures</h3>
+<h4 id="blocks">Blocks</h4>
+<p>Blocks textures are stored in the <code>./public/imgs/blocks</code> folder. All textures from this folder are parsed into classes like <code>bg-block-{filename}</code>, to add blocks to the theme just add a texture to the block folder</p>
+<h4 id="items">Items</h4>
+<p>Items textures are stored in the <code>./public/imgs/items</code> folder. All textures from this folder are parsed into classes like <code>bg-item-{filename}</code>, to add items to the theme just add a texture to the item folder</p>
+<h4 id="paintings">Paintings</h4>
+<p>Painting textures are stored in the <code>./public/imgs/paintings</code> folder. All textures from this folder are parsed into classes like <code>bg-painting-{filename}</code>, to add paintings to the theme just add a texture to the painting folder</p>
+<h4 id="ui">UI</h4>
+<p>UI textures are stored in the <code>./public/imgs/ui</code> folder, these textures include buttons, scrollbar, panels, and more. Each of these textures have been assigned a class inside the <code>./public/css/minecraft.css</code> file, a full list of all ui classes can be found here</p>
+<h4 id="icons">Icons</h4>
+<p>Icon textures are stored in the <code>./public/imgs/icons</code> folder. All textures from this folder are parsed into classes like <code>bg-icon-{filename}</code>, this makes adding icons to the theme as easy as adding a texture to the icons folder</p>
+<h3 id="fonts">Fonts</h3>
+<p>The theme comes preloaded with 5 different community made fonts located in <code>./public/fonts</code> and are imported into the project using <code>./public/css/minecraft.css</code>, if you want to add your own fonts add your font files to <code>./public/fonts</code> and define a <code>@fontface</code> rule inside the <code>minecraft.css</code> file</p>
+<h3 id="project-logo">Project Logo</h3>
+<p>The logo located at <code>./public/imgs/project-logo.png</code> was generated using <a href="https://www.textstudio.co/logo/minecraft-3d-text-41">textstudio</a></p>
+<p>This project used the following settings:</p>
+<ul>
+<li>Zoom: <code>36%</code></li>
+<li>Line Spacing: <code>10%</code></li>
+<li>Use default for character spacing and rotation</li>
+<li>Use the <code>Minecrafter Regular</code> font</li>
+<li>Navigate to the background tab and uncheck <code>Background or Transparent</code> to make background transparent</li>
+<li>Navigate to the download tab and select <code>Medium</code> quality with <code>fitted</code> aspect ratio</li>
+<li>Crop image after downloading</li>
+</ul>
+<h3 id="favicon">Favicon</h3>
+<p>The default favicon is a grass block, this can be replaced by converting a texture to a <code>.ico</code> file, renaming it to <code>favicon.ico</code>, then replacing the old favicon inside the <code>./public</code> folder</p>
+            </div>
+            <footer class="[--block-size:56px] [--footer-height:6] h-[calc(var(--block-size)*var(--footer-height))] xs:[--footer-height:5] sm:[--footer-height:4] md:[--footer-height:3] w-full bg-block-bedrock">
+    <div class="flex flex-col sm:flex-row items-center justify-between h-full p-5 bg-dark-75 text-white">
+        <header class="flex flex-col gap-3 w-full sm:w-[60%]">
+            <img src="/imgs/project-logo.png" class="h-full max-w-[30ch] m-[-14px]">
+            <p class="text-sm">MineMemories - This website created on a lazy hollyday. More stuff gonna come in the future</p>
+        </header>
+        <nav class="self-end flex flex-col items-end gap-1 text-link">
+        </nav>
+    </div>
+</footer>
+        </div>
+    </div>
+			</div>
+		</main>
+		
+		
+	</body>

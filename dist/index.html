@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<style is:global>
+	:root {
+		--block-size: 48px;
+		--nav-height: var(--2-block);
+		--main-height: calc(100vh - (var(--block-size) * (2 + 3)));
+	}
+</style>
+
+
+	
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width">
+		<meta name="generator" content="Astro v1.2.1">
+		<title>Minecraft Theme</title>
+		<link rel="icon" href="/favicon.ico">
+		<link rel="stylesheet" href="/css/minecraft.css">
+	
+	<body class="scrollbar">
+		
+        <header class="[--nav-height:2] h-[calc(var(--block-size)_*_var(--nav-height))] md:[--nav-height:2] w-full bg-block-dirt">
+    <div class="h-full w-full bg-block-grass-side bg-repeat-x">
+        <div class="flex flex-col md:flex-row items-center justify-end h-full w-full p-5 pt-0 md:pb-0 bg-cover bg-gradient-to-t from-[rgba(0,0,0,0.75)] to-[rgba(0,0,0,0.25)]">
+            <a href="/" class="h-auto w-6-block md:w-9-block mx-auto md:ml-0"><img src="/imgs/project-logo.png" alt="logo" class=""></a>
+            <nav class="flex items-center justify-end w-full md:w-min gap-3 text-2xl text-white">
+                
+                <a href="/docs" class="button py-1 px-2 text-lg" target="_blank">Docs</a>
+            </nav>
+        </div>
+    </div>
+</header>
+        <main class="min-h-[var(--main-height)] w-full bg-block-stone">
+			<div class="min-h-[var(--main-height)] h-full w-full bg-dark-75">
+				<link rel="stylesheet" href="/assets/docs-how-it-all-works-docs-index-index.a789e56a.css" /><div class="flex flex-col justify-center w-full sm:w-[90%] md:w-[80%] lg:w-[70%] mx-auto gap-5 py-5 px-2 markdown">
+    <h3 class=" underline text-2xl sm:text-4xl text-white">Astro Minecraft Theme</h3>
+    <p class="indent-5 text-white">
+        Show off your server, document your projects, build with blocks, display items and paintings, create game like GUIs, and tons more! This is a complete Minecraft theme with a documentation template built using Astro and Tailwindcss.
+        Check out the <a href="/docs" class="text-link hover:underline">docs</a> page for more information on how to use the theme and its features
+    </p>
+    <h3 class="text-center  underline text-4xl text-white">Features</h3>
+    <div class="flex items-center justify-center">
+        <ul>
+            <li>Display over 200+ items</li>
+            <li>Build with 100+ blocks</li>
+            <li>Repeating block backgrounds</li>
+            <li>All 25 paintings</li>
+            <li>Block based units/sizes</li>
+            <li>Create GUIs using panels, slots, and buttons</li>
+            <li>Misc UIs like maps, books, signs, and more</li>
+            <li>Minecraft typography using the Minecraft's font, text colors, and text shadows</li>
+            <li>75+ Minecraft themed colors</li>
+            <li>Markdown theme</li>
+            <li>Documentation system</li>
+        </ul>
+    </div>
+    <a href="/docs" class="self-center py-2 px-5 my-5 button text-shadow-lg text-2xl">Get started</a>
+</div>
+			</div>
+		</main>
+		<footer class="[--footer-height:6] h-[calc(var(--block-size)*var(--footer-height))] xs:[--footer-height:5] sm:[--footer-height:4] md:[--footer-height:3] w-full bg-block-bedrock">
+    <div class="flex flex-col sm:flex-row items-center justify-between h-full p-5 bg-dark-75 text-white">
+        <header class="flex flex-col gap-3 w-full sm:w-[60%]">
+            <img src="/imgs/project-logo.png" class="h-full max-w-[30ch] m-[-14px]">
+            <p class="text-sm">MineMemories - This website created on a lazy hollyday. More stuff gonna come in the future</p>
+        </header>
+        <nav class="self-end flex flex-col items-end gap-1 text-link">
+        </nav>
+    </div>
+</footer>
+		
+	</body>
