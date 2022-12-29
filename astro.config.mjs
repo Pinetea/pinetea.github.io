@@ -4,10 +4,8 @@ import tailwind from "@astrojs/tailwind";
 
 
 
-export default defineConfig({
-  site: 'https://pinetea.github.io',
-  base: '/',
-})
+
+
 
 // https://astro.build/config
 export default defineConfig({
